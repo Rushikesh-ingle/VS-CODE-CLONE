@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+nav{
+    height: 6vh;
+    background: rgb(67, 67, 67);
+    display: flex;
+    color: rgb(220, 220, 220);
+    font-size: 13px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4%;
+    height: 94vh;
+    background: rgb(54, 54, 54);
+}
+
+.mainSecLeft,
+.mainSecRight{
+    width: 96%;
+    height: 94vh;
+    background: rgb(41, 41, 41);
+}
+
+.mainSecLeft{
+    border-right: 1px solid rgb(69, 69, 69);
+    height: 100%;
+}
+
+.logo{
+    height: 3vh;
+}
+
+.navSec1,
+.navSec2,
+.navSec3{
+    width: 33%;
+    height: 6vh;
+}
+
+.navSec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navSec2{
+    display: flex;
+    width: 45%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.navSec3{
+    display: flex;
+    width: 22%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 70%;
+    height: 70%;
+    background: rgb(95, 95, 95);
+}
+
+.navSec3Para{
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asideSec1{
+    height: 50%;
+}
+
+.asideSec2{
+    height: 18%;
+}
+
+.asideSec1,
+.asideSec2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
